@@ -1,0 +1,1 @@
+codes witten by novice for practice
