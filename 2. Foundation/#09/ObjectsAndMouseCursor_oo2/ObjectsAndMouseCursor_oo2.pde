@@ -88,7 +88,6 @@ class Ball{
       vx = mouseX - pmouseX;
       vy = mouseY - pmouseY;
       hue = 200;
-      //pushMatrix();
       rectMode(CENTER);
       if(!dFlag){
         dPlus = -dPlus;
@@ -98,7 +97,6 @@ class Ball{
       translate(x,y);
       rotate(radians(d*10));
       rect(0,0,d,d);
-      //popMatrix();
     }else{
       dFlag = false;
       x += vx;
